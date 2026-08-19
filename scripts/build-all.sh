@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "=== [VCORE SYSTEM - NIVEL 6] AUDITORÍA Y VALIDACIÓN MAESTRA ==="
+echo "=== [VCORE SYSTEM - EXPERTO SENIOR] AUDITORÍA Y VALIDACIÓN MAESTRA ==="
 
-# 1. Verificar estructura de manifiestos
+# 1. Verificación y control de manifiestos
 if [ -f "vcore_nexus_manifest.json" ]; then
     echo "[OK] Manifiesto principal detectado."
 else
@@ -23,4 +23,4 @@ else
     echo "[WARN] Directorio core/engines no encontrado."
 fi
 
-echo "[SUCCESS] Auditoría y compilación de Nivel 6 finalizadas sin incidencias."
+echo "[SUCCESS] Auditoría y compilación de Experto Senior finalizadas sin incidencias."
